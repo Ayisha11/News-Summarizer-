@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Streamlit credentials
+.streamlit/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env
+
+# Ignore JSON logs / temporary data (keep only what you need)
+raw_articles.json
+cleaned_articles.json
+processed.json
+
